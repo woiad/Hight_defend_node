@@ -1,0 +1,43 @@
+@media screen and (max-width: 1330px) {
+    .header-nav li{margin-right: .1rem;}
+}
+@media screen and (max-width: 1240px) {
+    .header-nav li{margin-right: 1px;}
+    .header-nav li > a{font-size: 14px;}
+}
+@media screen and (max-width: 998px) {
+    /**** nav-btn *******/
+    .header{height: 60px;}
+    .header-logo{width: 100px;}
+    .header-nav{display: block;position: fixed;width: 176px;padding-top: 60px;right: 0;top: 0;bottom: 0;    background-color: #4079c7;z-index: 999;
+    overflow-y: auto;transform: translate(180px);-webkit-transform: translate(180px);
+    -moz-transform: translate(180px);transition: transform .5s linear;-webkit-transition: transform .5s linear;
+    -moz-transition: transform .5s linear}
+    .header-nav li{float: none;margin-right: 0;border-bottom: none;position: unset;height: auto;}
+    .header-nav li a{font-size: 14px;padding: 0 .22rem;}
+    .header-nav li.active a{color: #fff;}
+    .header-nav li > a::after{display: none;}
+    .header-nav li > a:hover{background-color: #2b57ca;color: #fff;}
+    .header-nav li > a:visited{background: transparent;}
+    .header-nav li .sub{position: unset;background: #fff;}
+    .header-nav li .sub dl{display: block}
+    .header-nav li .sub dl dd a{padding: 5px 0 5px 20px;margin: 0;height: unset; line-height: unset;color: #333;font-size: 14px;}
+    .header-nav li .sub dl dd a:after{display: none;}
+    .header-nav li:hover .sub{display: none;background: #fff;}
+    .header-nav li .sub dl dd a:hover{color: #333;background: #fff;}
+    .header-nav-btn{display: block;z-index: 9999;}
+
+    /**** content *******/
+    .content .descript .desc-item .item{display: block;}
+    .content .descript .desc-item .item .text{text-align: center;}
+    .content .descript .desc-item .img{text-align: center;}
+    .content .descript .desc-item img{max-width: 90%;}
+    .content .descript .desc-item.WAF-item img{max-width: 80%;}
+
+    /**** footer *******/
+    .footer{border-top: none;background-color: #4079c7;padding: 10px;box-sizing: border-box;margin-top: .8rem;}
+    .footer .foot_container{display: none;}
+    .footer .foot_copyright{border-top: none;}
+    .footer .foot_copyright p{float: unset;width: 100%;text-align: center;color: #fff;padding: 5px 0;}
+}
+
