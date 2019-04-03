@@ -8,6 +8,9 @@ $(document).ready(function () {
             } else{
                 $('html').css({'font-size': Math.floor(this.windowSize / 12.9) + 'px'})
             }
+            if (this.windowSize < 650) {
+                $(".content .banner img").attr('src', 'images/m_banner.png')
+            }
         }
     }
     FontObj.windowSize = $(document).width();

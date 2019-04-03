@@ -35,12 +35,12 @@ transition: all .3s;-webkit-transition: all .3s;-moz-transition: all .3s;}
 .header-nav-btn a.expand::after{transform: rotate(-45deg);bottom: 20px;-webkit-transform: rotate(-45deg); -moz-transform: rotate(-45deg);}
 .header-nav-btn a.expand span{transform: rotate(90deg);top: 18px;opacity: 0;-webkit-transform: rotate(90deg);-moz-transform: rotate(90deg);}
 .content{width: 100%;overflow: hidden;clear: both;}
-.content .banner{position: relative;width: 100%;overflow: hidden;height: 3.6rem;}
+.content .banner{position: relative;width: 100%;overflow: hidden;}
 .content .banner img{max-width: 100%;}
-.content .banner .text{position: absolute;top: .4rem;right: 3rem;}
+.content .banner .text{position: absolute;top: .8rem;right: 3rem;}
 .content .banner .text p{font-size: .66rem;color: #170cf5;-webkit-box-reflect: below 5px -webkit-linear-gradient(transparent 40%,rgba(0,0,0,.3));
     box-reflect: below 5px -webkit-linear-gradient(transparent 40%,rgba(0,0,0,.3));}
-.content .banner .experience{position: absolute;top: 1.8rem;right: 2.1rem;}
+.content .banner .experience{position: absolute;top: 2.8rem;right: 2.1rem;}
 .content .banner .experience a{display: flex;display: -webkit-flex;display: -moz-flex;top: 2.5rem;width: 2.5rem;height: .88rem;color: #fff;background-color: #17f1f8;font-size: .32rem;
 justify-content: center;align-items: center}
 .content .descript{width: 100%;overflow: hidden;clear: both;}
