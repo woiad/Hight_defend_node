@@ -31,8 +31,8 @@
     .content .descript .desc-item .item{display: block;}
     .content .descript .desc-item .item .text{text-align: center;}
     .content .descript .desc-item .img{text-align: center;}
-    .content .descript .desc-item img{max-width: 90%;}
-    .content .descript .desc-item.WAF-item img{max-width: 80%;}
+    .content .descript .desc-item img{max-width: 70%;}
+    .content .descript .desc-item.WAF-item img{max-width: 60%;}
 
     /**** footer *******/
     .footer{border-top: none;background-color: #4079c7;padding: 10px;box-sizing: border-box;margin-top: .8rem;}
