@@ -28,7 +28,7 @@
     .header-nav-btn{display: block;z-index: 9999;}
 
     /**** content *******/
-    .content .descript .desc-item .item{display: block;}
+    .content .descript .desc-item .item{display: flex;flex-wrap: wrap;}
     .content .descript .desc-item .item .text{text-align: center;}
     .content .descript .desc-item .img{text-align: center;}
     .content .descript .desc-item img{max-width: 70%;}
@@ -41,6 +41,10 @@
     .footer .foot_copyright p{float: unset;width: 100%;text-align: center;color: #fff;padding: 5px 0;}
 }
 
+@media screen and (max-width: 780px){
+    .content .descript .desc-item .item{justify-content: center;}
+}
+
 @media screen and (max-width: 650px) {
     .content .banner .text{
         top: 40%;
@@ -48,5 +52,15 @@
     .content .banner .experience{
         top: 60%;
     }
+    .content .descript .desc-item .text h1{
+        font-size: 16px;
+    }
+    .content .descript .desc-item .text p{
+        font-size: 14px;
+        line-height: 1.5;
+    }
 }
-
+@media screen and (max-width: 500px) {
+    .content .banner .text h1{font-size: 24px;}
+    .content .banner .text p{font-size: 14px;}
+}

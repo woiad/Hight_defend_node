@@ -3,7 +3,6 @@ $(document).ready(function () {
         windowSize: '',
         changeFontSize: function () {
             if (this.windowSize > 1290) {
-                console.log(11)
                 $('html').css({'font-size': '100px'})
             } else{
                 $('html').css({'font-size': Math.floor(this.windowSize / 12.9) + 'px'})
@@ -21,6 +20,8 @@ $(document).ready(function () {
 
     })
 
+    $(".desc-item").css({'height': window.innerHeight + 'px'})
+    $('.banner').css({'height': window.innerHeight + 'px'})
     $('.header-nav-btn a.deploy-navigation').bind('click', function () {
         $(this).toggleClass('expand')
         if ($(this).hasClass('expand')) {
@@ -37,4 +38,25 @@ $(document).ready(function () {
             $(this).find('.sub').slideToggle("slow")
         })
     }
+
+    function scrollToTop() {
+        if ($('.scroll-top').length) {
+
+            //Check to see if the window is top if not then display button
+            $(window).scroll(function() {
+                if ($(this).scrollTop() > 200) {
+                    $('.scroll-top').fadeIn();
+                } else {
+                    $('.scroll-top').fadeOut();
+                }
+            });
+
+            //Click event to scroll to top
+            $('.scroll-top').click(function() {
+                $('html, body').animate({ scrollTop: 0 }, 1500);
+                return false;
+            });
+        }
+    }
+    scrollToTop();
 })

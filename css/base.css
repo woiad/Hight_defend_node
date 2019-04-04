@@ -1,12 +1,22 @@
 *{margin: 0;padding: 0}
-html, body{font-size: 16px;font-family: '微软雅黑';}
+@font-face {
+    font-family: "SourceHanSansCN Heavy";
+    src: url("../font/SourceHanSansCN Heavy.woff2") format("woff2"),
+    url("../font/SourceHanSansCN Heavy.woff") format("woff"),
+    url("../font/SourceHanSansCN Heavy.ttf") format("truetype"),
+    url("../font/SourceHanSansCN Heavy.eot") format("embedded-opentype"),
+    url("../font/SourceHanSansCN Heavy.svg") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+html, body{font-size: 16px;font-family: "SourceHanSansCN Heavy", sans-serif;}
 ul, li, ol, dd{
     list-style: none;
 }
 a{
     text-decoration: none;
 }
-.mg{max-width: 1200px;margin: 0 auto;}
+.mg{max-width: 1200px;margin: 0 auto;height: 100%;}
 img{max-width: 100%;}
 a,
 a:hover,
