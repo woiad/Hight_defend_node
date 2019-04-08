@@ -28,8 +28,9 @@
     .header-nav-btn{display: block;z-index: 9999;}
 
     /**** content *******/
-    .content .descript .desc-item .item{display: flex;flex-wrap: wrap;}
-    .content .descript .desc-item .item .text{text-align: center;}
+    .content .descript .desc-item .item{display: flex;flex-wrap: wrap;justify-content: center}
+    .content .descript .desc-item .item .text h1{text-align: center;margin-bottom: .3rem;font-size: 16px;}
+    .content .descript .desc-item .item .text p{font-size: 14px;}
     .content .descript .desc-item .img{text-align: center;}
     .content .descript .desc-item img{max-width: 70%;}
     .content .descript .desc-item.WAF-item img{max-width: 60%;}
@@ -39,6 +40,11 @@
     .footer .foot_container{display: none;}
     .footer .foot_copyright{border-top: none;}
     .footer .foot_copyright p{float: unset;width: 100%;text-align: center;color: #fff;padding: 5px 0;}
+}
+@media screen and (max-width: 835px){
+    .content .descript .desc-item .item div:last-child{
+        margin-top: -30%;
+    }
 }
 
 @media screen and (max-width: 780px){
@@ -55,9 +61,10 @@
     .content .descript .desc-item .text h1{
         font-size: 16px;
     }
-    .content .descript .desc-item .text p{
-        font-size: 14px;
+    .content .descript .desc-item .item .text p{
+        font-size: 12px;
         line-height: 1.5;
+        padding: 0 10px;
     }
 }
 @media screen and (max-width: 500px) {

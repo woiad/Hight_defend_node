@@ -51,17 +51,12 @@ justify-content: center;align-items: center}
 .content .descript .desc-item .item{display: flex;display: -webkit-flex;height: 100%;display: -moz-flex;justify-content: space-between;
 align-items: center;}
 .content .descript .desc-item.swiper-slide{height: 100%;width: 100%;position: relative;overflow: hidden;}
-.content .descript .desc-item .text h1{margin: 1.1rem 0 .1rem 0;font-size: .44rem;color: #000;font-weight: 500;}
-.content .descript .desc-item .text p{font-size: 16px;color: #666;line-height: 2;}
-.content .descript .desc-item .text p.indentation{text-indent: .72rem;margin-bottom: .27rem;}
+.content .descript .desc-item .text{width: 416px;text-align: justify;}
+.content .descript .desc-item .text h1{margin: 1.1rem 0 .1rem 0;font-size: .24rem;color: #000;font-weight: 500;}
+.content .descript .desc-item .text p{font-size: 16px;color: #666;line-height: 2;padding: 0 10px;}
 .content .descript .desc-item .img{margin-top: .45rem}
 .content .descript .line-item,
 .content .descript .WAF-item{background-color: #f5f7fa;}
-.content .descript .industry-item .text{margin-left: .60rem;}
-/*.content .descript .line-item .text{margin-right: 1.4rem;}*/
-.content .descript .IP-item .text{margin-left: .4rem;}
-/*.content .descript .WAF-item .text{margin-right: 1rem;}*/
-.content .descript .WAF-item .img{margin-left: .7rem}
 .footer{width: 100%;overflow: hidden;clear: both;border-top: 4px solid #4079c7;}
 .footer .foot_container{display: flex; display: -webkit-flex; display: -moz-flex;padding: .47rem 0 .37rem 0;}
 .footer .foot_container .foot_nav_left{width: 60%;overflow: hidden;}

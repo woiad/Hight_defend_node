@@ -19,7 +19,6 @@ $(document).ready(function () {
         FontObj.changeFontSize()
 
     })
-
     $(".desc-item").css({'height': window.innerHeight + 'px'})
     $('.banner').css({'height': window.innerHeight + 'px'})
     $('.header-nav-btn a.deploy-navigation').bind('click', function () {
